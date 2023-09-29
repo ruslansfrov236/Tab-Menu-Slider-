@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+
+
+.b-tab {
+    padding: 20px;
+    border:none;
+    display: none;
+  }
+  .tabs{
+    border-radius: 5px 0;
+    display: flex;
+    align-items: center ;
+    width: 100%3;
+    padding: 10px 0px;
+    height: 60px;
+    background-color: #1c1b1e;
+  }
+ .b-tab{
+
+    width: 100%;
+   color: #1c1b1e;
+    background-color: beige;
+   
+ }
+  .tab{
+   
+    text-align: center;
+    color:#fff;
+   width: 100%;
+  
+   transition: all .4s ease-in-out;
+   border-right: 1px solid transparent #ff0e1f;
+  }
+
+  .b-tab.active {
+    display: block;
+  }
+  
+
+  
+
+.tab-link{
+    
+    cursor:pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    width:50%;
+    height:40px;
+    transition: all .3s ease-in-out;
+   
+}
+.tab-link.active{
+    border-radius: 5px;
+    background-color: rgb(23, 170, 121);
+}
+
+ .carousel{
+    cursor: pointer;
+    position: relative;
+    inset: 0;
+    padding: 30px 20px;
+    width: 100%;
+ }
+
+.btn-left{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+}
+.btn-right{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.fa-solid{
+    opacity: 1;
+    font-size: 2em;
+    transition: opacity .3s ease-out;
+}
+.fa-solid:hover{
+    opacity: .5;
+}
+.btn{
+    position: absolute;
+    top:50%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#carousel-image{
+    width: 800px;
+    height: 800px;
+  
+ 
+
+}
+.add{
+    display: grid;
+    place-content: center;
+    place-items: center;
+
+}
+form{
+    display: flex;
+    gap:1em;
+    width: 700px;
+}
+#text-add{
+    padding: 12px;
+    border: 1px solid #40149723;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn-add{
+    width: 200px;
+    background-color: rgb(56, 65, 182);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+:is(#text-add:hover):focus{
+   border:1px solid  #299614;
+   outline:1px solid #299614;
+}
+.fa-trash{
+    width: 40px;
+    cursor: pointer;
+    color: #ff0e1f;
+}
+.box{
+    
+    width: 700px;
+    margin: 15px 0 0 0 ;
+    padding: 20px 15px;;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-remove{
+  
+    border: none;
+    outline: none;
+    background: transparent;
+}
+#checkbox{
+    width: 40px;
+}
+#texts{
+   
+    color: #1c1b1e;
+}
